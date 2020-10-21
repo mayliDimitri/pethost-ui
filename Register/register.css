@@ -1,0 +1,177 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    background-color: ffffff;
+    font-family: Roboto;
+    font-size: 25px;
+    background-color: #e3e2df;
+}
+
+/* NAVBAR */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li{
+    color: transparent;
+}
+
+.LogoWebsite{
+    float: left;
+    margin-left: 70px;
+    /* width: 100px; */
+}
+
+.TopLeftLogo{
+    width: 100px;
+}
+
+.BtnNavigasi{
+    float: right;
+    font-size: 1.75rem;
+    border-radius: 20px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+li a{
+    display: block;
+    padding: 10px 15px 0px 15px;
+    text-decoration: none;
+    color: #e4927d;
+}
+
+li a:hover{
+    color: #e38067;
+}
+
+.center{
+    text-align: center;
+}
+
+/* FORM */
+
+.center.addBackground{
+    background-color: #e38067;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
+    padding: 10px;
+    color: white;
+}
+
+.formLayout{
+    color: white;
+    margin-top: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0;
+    font-size: 21px;
+    background-color: #e4927d;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.form{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.FirstName{
+    width: 48%;
+    margin-right: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.LastName{
+    /* padding: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 46%;
+}
+
+.FullBox{
+    /* padding: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+    display: inline-block;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text],input[type=password]{
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+input[type=radio]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.exception{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+}
+
+.exception.Agreement{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.SelectBox{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.buttonSubmit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: none;
+    color: #e4927d;
+    display: block;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.buttonSubmit:hover{
+    background-color: white;
+    color: black;
+}
+
+.btnCenter{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

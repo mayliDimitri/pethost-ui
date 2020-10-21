@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Host's Doctors</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 50px 50px 50px 50px;
+            background-color: #e3e2df;
+            font-family: 'Roboto';
+            background-size: 100%;
+        }
+
+        .logo
+        {
+            width: 71px;
+            height: 71px;
+        }
+
+        .navbar
+        {
+            padding-bottom: 65px;
+        }
+
+        .navbar ul
+        {
+            float: right;
+            color: #e4927e;
+        }
+
+        .navbar li
+        {
+            padding-right: 64px;
+            list-style-type: none;
+            display: inline;
+        }
+
+        .navbar li a
+        {
+            text-decoration: none;
+            padding: 10px 5px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .navbar .kliknav 
+        {
+            color: #e4927e;
+        }
+
+        .kliknav:hover
+        {
+            color: #df6f54;
+        }
+
+        .chatbody {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
+        }
+
+        .container {
+        border: 2px solid #e3e2df;
+        background-color: #e4927e;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+        }
+
+        .pinker {
+        border-color: #e3e2df;
+        background-color: #df6f54;
+        }
+
+        .container::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+
+        .container img {
+        float: left;
+        max-width: 60px;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 50%;
+        }
+
+        .time-right {
+        float: right;
+        color: #000000;
+        }
+
+        button {
+        float: right;
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        background: #e4927e;
+        padding: 15px 32px;
+        }
+
+        button:hover{
+        color: #df6f54
+        }
+
+        textarea{
+        width: 1045px;
+        height: 46px;
+        }
+
+        .border-name{
+        border: rgb(0, 0, 0) 5px;
+        border-radius: 10px;
+        padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../Home/index.html"><img class="logo" src="../Chatting/image/Logo.png" alt="Logo"></a>
+        <ul>
+            <li><a class="kliknav" href="../findHospital/hospitalPage.html">FIND HOSPITAL</a></li>
+            <li><a class="kliknav" href="../Doctors/doctorPage.html">DOCTORS</a></li>
+        </ul>
+    </div>
+    
+    <chatbody>
+
+        <h2>Dr. Matilda James</h2>
+        
+        <div class="container">
+            <img src="../Chatting/image/dokter.jpg" alt="Avatar" class="right" style="width:100%;">
+            <p>Hello. Jadi apakah masalah yang hewan anda alami?</p>
+            <span class="time-right">11:00</span>
+        </div>
+        
+        <div class="container pinker">
+            <img src="../Chatting/image/user.jpg" alt="Avatar" class="right" style="width:100%;">
+            <p>Dia terlihat sangat lesu semejak kemarin lusa</p>
+            <span class="time-right">11:01</span>
+        </div>
+        
+        <div class="container">
+            <img src="../Chatting/image/dokter.jpg" alt="Avatar" style="width:100%;">
+            <p>Bagaimana dengan nafsu makan yang dimilikinya?</p>
+            <span class="time-right">11:02</span>
+        </div>
+        
+        <div class="container pinker">
+            <img src="../Chatting/image/user.jpg" alt="Avatar" class="right" style="width:100%;">
+            <p>Dia juga nafsu makannya berkurang dari biasanya</p>
+            <span class="time-right">11:05</span>
+        </div>
+
+
+        <div class="chat-message">
+            <textarea name="message-to-send" id="message-to-send" placeholder ="Type your message"></textarea>
+            
+            <button>Send</button>
+        </div>
+        
+    </chatbody>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Hospital</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <style>
+        body
+        {
+            margin: 0;
+            padding-top: 50px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            background-color: #e3e2df;
+            font-family: 'Roboto';
+            background-size: 100%;
+        }
+
+        .logo
+        {
+            width: 71px;
+            height: 71px;
+        }
+
+        .navbar
+        {
+            padding-bottom: 65px;
+        }
+
+        .navbar ul
+        {
+            float: right;
+            color: #e4927e;
+        }
+
+        .navbar li
+        {
+            padding-right: 64px;
+            list-style-type: none;
+            display: inline;
+        }
+
+        .navbar li a
+        {
+            text-decoration: none;
+            padding: 10px 5px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .navbar .kliknav 
+        {
+            color: #e4927e;
+        }
+
+        .kliknav:hover
+        {
+            color: #df6f54;
+        }
+
+        .contentSide
+        {
+            display: flex;
+            padding-left: 50px;
+        }
+
+        .searchSide{
+            display: flex;
+            flex-grow: 1;
+            margin-left: 430px;
+        }
+
+        .leftSide
+        {
+            display: flex;
+            float: left;
+            margin-right: 135px;
+        }
+
+        .titleContent
+        {
+            font-size: 85px;
+            font-weight: 600;
+            color: #e4927e;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        #hostSearch
+        {
+            float: right;
+            width: 700px;
+            height: 45px;
+            background-color: transparent;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: #e4927e;
+            padding-left: 10px;
+            color: #e4927e;
+        }
+
+        .container 
+        {
+            display: flex;
+            background-color: #df8e7b;
+            border-radius: 30px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 47%;
+            height: 50%;
+            margin: 10px;
+        }
+
+        .imgPet
+        {
+            width: 250px;
+            height: auto;
+        }
+
+        .flex-container
+        {
+            display: flex;
+            flex-grow: 1;
+            flex-wrap: wrap;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../Home/index.html"><img class="logo" src="../Doctors/image/Logo.png" alt="Logo"></a>
+        <ul>
+            <li><a class="kliknav" href="hospitalPage.html">FIND HOSPITAL</a></li>
+            <li><a class="kliknav" href="../Doctors/doctorPage.html">DOCTORS</a></li>
+            <li><a class="kliknav" href="#">LOGIN</a></li>
+        </ul>
+    </div>
+
+    <div class="contentSide">
+        <div class="searchSide">
+            <input type="text" id="hostSearch" name="hostSearch" placeholder="Search locations, hospitals, cities, and clinics...">
+        </div>
+    </div>
+    
+    <div class="contentSide">
+        <div class="leftSide">
+            <h1 class="titleContent">REACH<br>VETS<br>EASIER</h1>
+        </div>
+        <div class="flex-container">
+            <div class="container">
+                <a href="#"><img class="imgPet" src="../findHospital/image/Cats.png"></a>
+            </div>
+            <div class="container">
+                <a href="#"><img class="imgPet" src="../findHospital/image/Dogs.png"></a>
+            </div>
+            <div class="container">
+                <a href="#"><img class="imgPet" src="../findHospital/image/Rabbit.png"></a>
+            </div>
+            <div class="container">
+                <a href="#"><img class="imgPet" src="../findHospital/image/Birds.png"></a>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>

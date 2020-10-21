@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetHost Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    *
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body
+    {
+      font-family: 'Roboto';
+      font-size: 25px;
+      background: url('img/IMG.png') no-repeat center;
+      background-size: 130%;
+      background-color: #e3e2df;
+    }
+    .navbar
+    {
+      width: 100%;
+      font-size: 1.75rem;
+      position: fixed;
+    }
+    .navbar img
+    {
+      width: 100px;
+      margin-left: 70px;
+      margin-top: 10px;
+    }
+    .navbar ul
+    {
+        float: right;
+        padding: 2rem;
+        color: #e3e2df;
+    }
+    .navbar li
+    {
+      padding-right: 4rem;
+      list-style: none;
+      display: inline;
+    }
+    .navbar .btnnavbar
+    {
+      color: #e3e2df;
+    }
+    .btnnavbar:hover
+    {
+      color: #f4f4f4;
+    }
+    .content-right
+    {
+      display: block;
+      width: 50%;  
+      float: right;
+      height: 1000px;
+      background-color: #df8e7b;
+    }
+    .content-right img
+    {
+      background: url('img/IMG.png');
+    }
+    .content-left
+    {
+      float: left;
+      margin-top: 50px;
+      padding-left: 20%;
+      font-size: 6rem;
+      color: #df8e7b;
+      text-align: center;
+      padding-top: 150px;
+    }
+    a
+    {
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+    .btn
+    {
+      font-size: 1.75rem;
+      color: #e3e2df;
+      background: #df8e7b;
+    }
+    .btn:hover
+    {
+      background-color: #f7c0aa;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="logo"></div>
+  <div class="navbar">
+    <a href=""><img src="img/Logo.png" alt=""></a>
+    <ul>
+      <li><a class="btnnavbar" href="">LOGIN</a></li>
+      <li><a class="btnnavbar" href="../Shop/shop.html">SHOP</a></li>
+      <li><a class="btnnavbar" href="../Articles/ArticlePage.html">ARTICLES</a></li>
+    </ul>
+  </div>
+  <div class="content-left">
+    <h3>CHAT <br> WITH <br> VETS</h3>
+    <a class="btn" href="../Doctors/doctorPage.html">Find Out More</a>
+  </div>
+  
+</body>
+</html>
